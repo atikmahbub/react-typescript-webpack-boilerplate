@@ -1,4 +1,4 @@
-# {{app_name}}
+# React Typescript Webpack boilerplate
 
 This is a React TypeScript application built with Webpack.
 
@@ -18,13 +18,13 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/username/{{app_name}}.git
+   git clone https://github.com/atikmahbub/react-typescript-webpack-boilerplate
    ```
 
 2. **Navigate into the project directory:**
 
    ```bash
-   cd {{app_name}}
+   cd react-typescript-webpack-boilerplate
    ```
 
 3. **Install dependencies:**
