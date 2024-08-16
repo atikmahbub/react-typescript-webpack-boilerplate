@@ -39,6 +39,33 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.(s[ac]ss|css)$/i,
+        use: [
+          "style-loader",
+          "css-loader",
+          {
+            loader: "sass-loader",
+            options: {
+              sassOptions: {
+                includePaths: [path.resolve(__dirname, "node_modules")],
+              },
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: "file-loader",
+          },
+        ],
+      },
+      {
+        test: /\.ttf$/,
+        use: ["file-loader"],
+      },
     ],
   },
   plugins: [
