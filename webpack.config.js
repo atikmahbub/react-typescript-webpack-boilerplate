@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         test: /\.(ts)x?$/,
-        exclude: /node_modules|\.d\.ts$/, // this line as well
+        exclude: /node_modules|\.d\.ts$/,
         use: {
           loader: "ts-loader",
           options: {
