@@ -1,7 +1,9 @@
 {
-  "name": "my-app",
+  "name": "react-typescript-webpack-boilerplate",
   "version": "1.0.0",
   "private": true,
+  "author": "Atik Mahbub(atikmahbubb100@gmail.com)",
+  "repository": "https://github.com/atikmahbub/react-typescript-webpack-boilerplate",
   "scripts": {
     "start": "webpack serve --open --mode development",
     "build": "webpack --mode production"
